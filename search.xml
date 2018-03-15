@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>端口占用问题</title>
+      <link href="/2018/03/15/%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/"/>
+      <content type="html"><![CDATA[<p>经常有端口北占用,导致tomcat或者zookeeper不能启动.</p><p>可以在控制台通过部分语句查询端口的占用情况.</p><a id="more"></a><p>win + R —&gt; cmd </p><p>netstat -ano :列出所有的端口的情况</p><p>netstat -ano|findstr “端口号” 查询你输入的端口号的占用情况,主要是看进程号,方便下一步结束,也可以根据进程号上任务管理器查看进程</p><p>taskkill /pid 进程号(pid) /f 结束进程号代表的进程</p>]]></content>
+      
+      
+    </entry>
+    
+  
+  
+</search>
